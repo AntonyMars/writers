@@ -12,7 +12,7 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
-    require('admin-lte');
+    require('admin-lte');   // this is for brining in admin-lte (an admin page aleady configured)
 } catch (e) {}
 
 /**
